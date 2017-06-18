@@ -1,0 +1,31 @@
+[debug] [2017-06-18T07:27:12.500Z] ----------------------------------------------------------------------
+[debug] [2017-06-18T07:27:12.503Z] Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\GazorpGazorp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only hosting
+[debug] [2017-06-18T07:27:12.505Z] CLI Version:  3.9.1
+[debug] [2017-06-18T07:27:12.505Z] Platform:     win32
+[debug] [2017-06-18T07:27:12.505Z] Node Version: v7.8.0
+[debug] [2017-06-18T07:27:12.505Z] Time:         Sun Jun 18 2017 00:27:12 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-18T07:27:12.505Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-18T07:27:12.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-18T07:27:12.521Z] > authorizing via signed-in user
+[debug] [2017-06-18T07:27:12.524Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-18T07:27:12.525Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/z2Prne08rM8McRk3hh0lnQUvmhzCVfs37H_hDhEJ5D8qxMP-zHEpJe0ommGvGZ-2',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jun 18 2017 00:27:12 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-18T07:27:12.725Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-18T07:27:12.761Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fireroof-3586f  
+ Sun Jun 18 2017 00:27:12 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-18T07:27:13.310Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-18T07:27:13.311Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fireroof-3586f/tokens  
+ Sun Jun 18 2017 00:27:13 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-18T07:27:13.828Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fireroof-3586f'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build/es5-bundled directory for upload...
+[debug] [2017-06-18T07:27:16.240Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/fireroof-3586f/uploads/-Kmu5I4oHjByJ3CZjPnl?fileCount=209&message=  
+ Sun Jun 18 2017 00:27:16 GMT-0700 (Pacific Daylight Time)
