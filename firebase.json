@@ -6,6 +6,15 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [{
+          "key": "Link",
+          "value": "</src/shop-app.html>;rel=preload,</src/shop-home.html>;rel=preload,</src/shop-category-data.html>;rel=preload,</src/shop-button.html>;rel=preload,</src/shop-image.html>;rel=preload,</data/ladies_outerwear.json>;rel=preload,</data/ladies_tshirts.json>;rel=preload,</data/mens_outerwear.json>;rel=preload,</data/mens_tshirts.json>;rel=preload,</data/ladies_outerwear.json>;rel=preload"
+        }]
+      }
     ] 
   }
 }
