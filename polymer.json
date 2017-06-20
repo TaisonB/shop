@@ -24,16 +24,6 @@
   },
   "builds": [
     {
-    "name": "bundled",
-    "bundle": true,
-    "js": {"minify": true},
-    "css": {"minify": true},
-    "html": {"minify": true},
-    "addServiceWorker": true,
-    "addPushManifest": true,
-    "insertPrefetchLinks": true
-    },
-    {
       "preset": "es5-bundled"
     },
     {

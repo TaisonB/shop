@@ -1,6 +1,6 @@
 {
-  "name": "FireRoof",
-  "short_name": "FireR",
+  "name": "Shop Tester",
+  "short_name": "Shop",
   "icons": [{
       "src": "images/shop-icon-128.png",
       "sizes": "128x128",
