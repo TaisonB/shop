@@ -1,9 +1,0 @@
-{
-  "name": "shop",
-  "version": "1.0.0",
-  "description": "shop perf test",
-  "main": "index.html",
-  "repository": "https://github.com/TaisonB/shop.git",
-  "author": "TaisonB",
-  "license": "MIT"
-}
